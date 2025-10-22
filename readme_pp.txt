@@ -1,0 +1,7 @@
+-extract https://github.com/NVIDIA-RTX/Streamline/releases/download/v2.8.0/streamline-sdk-v2.8.0.zip into Streamline_Sample\streamline
+ -or accordingly copy over items from your own build of the streamline sdk
+-from start->run, open 'x86_x64 Cross Tools Command Prompt for VS 2022'
+-navigate to the sample directory
+-run make.bat
+-build Streamline_Sample\_build\StreamlineSample.sln (debug or release)
+-use command line -vulkan
